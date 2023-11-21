@@ -19,9 +19,9 @@ for i in range(int(new_height)):
     y_index = math.floor(int(i / resize_scale))
 
     for j in range(int(new_width)):
-        # i = iteration for new image's width
+        # j = iteration for new image's width
         # resize_scale = 2x
-        #     i / 2
+        #     j / 2
         # >>> 0 / 2 = 0.0 -> floor -> 0
         # >>> 1 / 2 = 0.5 -> floor -> 0
         # >>> 2 / 2 = 1.0 -> floor -> 1
